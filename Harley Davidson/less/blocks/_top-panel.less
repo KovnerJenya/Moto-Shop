@@ -1,0 +1,33 @@
+.top-panel {
+    height: 78px;
+    width: 100%;
+    background-color: #262626;
+    color: #f8f8f8;
+}
+
+.row-top-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-panel__notification {
+    margin-right: 15px;
+    font-size: 11px;
+    font-weight: 500;
+
+    @media (min-width: 780px) {
+        font-size: 12px;
+    }
+
+}
+
+.top-panel__icons {
+    display: flex;
+    align-items: center;
+}
+
+.top-panel__link:not(:last-child) {
+    margin-right: 28px;
+
+}

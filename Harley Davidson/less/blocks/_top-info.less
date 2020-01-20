@@ -1,0 +1,24 @@
+.top-info {
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    @media (min-width: 992px) {
+        padding-top: 44px;
+        padding-bottom: 60px;
+    }
+}
+
+.top-info__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+    flex-direction: column;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    @media (min-width: 740px) {
+        flex-direction: row;
+    }
+}
